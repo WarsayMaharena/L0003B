@@ -41,3 +41,16 @@ H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.CoreCompileIn
 H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
 H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
 H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb
+H:\L0003B\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.exe
+H:\L0003B\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.pdb
+H:\L0003B\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.xml
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.AssemblyReference.cache
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmMain.resources
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmElev.resources
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmKurs.resources
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmOppna.resources
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.GenerateResource.cache
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.CoreCompileInputs.cache
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
+H:\L0003B\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb

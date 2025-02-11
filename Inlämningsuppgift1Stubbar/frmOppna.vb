@@ -88,7 +88,8 @@ Public Class frmOppna
     Private Sub uppdateraListan()
         mySqlCommand.Connection = mySqlConnection.ReturneraKoppling()
         mySqlCommand.CommandType = CommandType.Text
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT VÄLJA ALLT OM ALLA ELEVER SORTERAT PÅ EFTERNAMN"
+        mySqlCommand.CommandText = "SELECT * FROM Elev990730 ORDER BY efternamn"
+        '"EGEN KOD: SQL-SATS FÖR ATT VÄLJA ALLT OM ALLA ELEVER SORTERAT PÅ EFTERNAMN"
 
         mySqlConnection.open()
         myAdapter = New SqlDataAdapter(mySqlCommand)
@@ -137,10 +138,12 @@ Public Class frmOppna
     Private Sub btnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDelete.Click
         If ListBox1.SelectedIndex <> -1 Then
             mySqlConnection.Open()
-            mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT TA BORT ELEV MED PERSONUMMER SOM FINNS I VARIABELN ListBox1.SelectedValue()."
+            mySqlCommand.CommandText = "DELETE FROM Elev990730 WHERE pnr = '" & ListBox1.SelectedValue & "'"
+            '"EGEN KOD: SQL-SATS FÖR ATT TA BORT ELEV MED PERSONUMMER SOM FINNS I VARIABELN ListBox1.SelectedValue()."
 
             mySqlCommand.ExecuteNonQuery()
-            mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT TA BORT DEN ELEVENS KURSER, DVS UR TABELLEN KURSELEV."
+            mySqlCommand.CommandText = "DELETE FROM KursElev990730 WHERE pnr = '" & ListBox1.SelectedValue & "'"
+            '"EGEN KOD: SQL-SATS FÖR ATT TA BORT DEN ELEVENS KURSER, DVS UR TABELLEN KURSELEV."
 
             mySqlCommand.ExecuteNonQuery()
             mySqlConnection.Close()

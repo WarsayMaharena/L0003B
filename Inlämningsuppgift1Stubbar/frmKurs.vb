@@ -115,7 +115,10 @@ Public Class frmKurs
 
         mySqlCommand.Connection = mySqlConnection.ReturneraKoppling()
         mySqlCommand.CommandType = CommandType.Text
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT LÄGGA IN DEN NYA KURSEN. NAMNET FINNS I VARIABELN nyttKursNamn."
+        ' Parameterized query to prevent SQL injection issues
+        mySqlCommand.CommandText = "INSERT INTO Kurs990730 (kursnamn) VALUES (@kursnamn)"
+        mySqlCommand.Parameters.Clear()  ' Ensure parameters are cleared before adding
+        mySqlCommand.Parameters.AddWithValue("@kursnamn", nyttKursNamn)
 
         mySqlCommand.ExecuteNonQuery()
 
@@ -128,7 +131,7 @@ Public Class frmKurs
         mySqlConnection.open()
         mySqlCommand.Connection = mySqlConnection.ReturneraKoppling()
         mySqlCommand.CommandType = CommandType.Text
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT VÄLJA ALLA KURSER"
+        mySqlCommand.CommandText = "SELECT kursnamn FROM Kurs990730"
 
         myAdapter = New SqlDataAdapter(mySqlCommand)
         Dim i As Integer = 0
@@ -150,7 +153,15 @@ Public Class frmKurs
         mySqlCommand.Connection = mySqlConnection.ReturneraKoppling()
         mySqlCommand.CommandType = CommandType.Text
         Dim knamn As String = ListBox1.SelectedItem
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT VÄLJA UR KURSELEV ALLA FÖREKOMSTER FÖR DEN KURSEN VARS NAMN FINNS I VARIABELN knamn."
+        mySqlCommand.CommandText = "
+            SELECT * 
+            FROM KursElev990730
+            WHERE kursnamn = @kursnamn
+        "
+        ' Clear any existing parameters before adding new
+        mySqlCommand.Parameters.Clear()
+        mySqlCommand.Parameters.AddWithValue("@kursnamn", knamn)
+        '"EGEN KOD: SQL-SATS FÖR ATT VÄLJA UR KURSELEV ALLA FÖREKOMSTER FÖR DEN KURSEN VARS NAMN FINNS I VARIABELN knamn."
 
         myAdapter = New SqlDataAdapter(mySqlCommand)
         Dim ds As New DataSet
@@ -160,7 +171,17 @@ Public Class frmKurs
             mySqlConnection.Close()
             Exit Sub
         End If
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT TA BORT KURSEN MED KURSNAMN I ListBox1.Items.Item(ListBox1.SelectedIndex)"
+        ' SECOND SQL: If no students are enrolled, delete the course from Kurs990730
+        mySqlCommand.CommandText = "
+        DELETE FROM Kurs990730
+        WHERE kursnamn = @kursnamn
+    "
+
+        ' Reuse the same parameter if you'd like, 
+        ' or clear and add again for clarity:
+        mySqlCommand.Parameters.Clear()
+        mySqlCommand.Parameters.AddWithValue("@kursnamn", knamn)
+        '"EGEN KOD: SQL-SATS FÖR ATT TA BORT KURSEN MED KURSNAMN I ListBox1.Items.Item(ListBox1.SelectedIndex)"
 
         mySqlCommand.ExecuteNonQuery()
 
@@ -182,11 +203,13 @@ Public Class frmKurs
         mySqlCommand.Connection = mySqlConnection.ReturneraKoppling()
         mySqlCommand.CommandType = CommandType.Text
 
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT UPPDATERA KURSENS NAMN. NAMNET FINNS I ListBox1.SelectedItem och det nya namnet finns i variabeln nyttNamn"
+        mySqlCommand.CommandText = "UPDATE Kurs990730 SET kursnamn = '" & nyttNamn & "' WHERE kursnamn = '" & ListBox1.SelectedItem & "'"
+        '"EGEN KOD: SQL-SATS FÖR ATT UPPDATERA KURSENS NAMN. NAMNET FINNS I ListBox1.SelectedItem och det nya namnet finns i variabeln nyttNamn"
 
         mySqlCommand.ExecuteNonQuery()
 
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT UPPDATERA KURSENS NAMN FÖR DE ELEVER SOM HAR DEN KURSEN VARS NAMN ÄNDRATS. NAMNET FINNS I ListBox1.SelectedItem och det nya namnet finns i variabeln nyttNamn."
+        mySqlCommand.CommandText = "UPDATE KursElev990730 SET kursnamn = '" & nyttNamn & "' WHERE kursnamn = '" & ListBox1.SelectedItem & "'"
+        '"EGEN KOD: SQL-SATS FÖR ATT UPPDATERA KURSENS NAMN FÖR DE ELEVER SOM HAR DEN KURSEN VARS NAMN ÄNDRATS. NAMNET FINNS I ListBox1.SelectedItem och det nya namnet finns i variabeln nyttNamn."
 
         mySqlCommand.ExecuteNonQuery()
 

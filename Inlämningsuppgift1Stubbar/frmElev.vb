@@ -231,7 +231,8 @@ Public Class frmElev
     Private Sub hämtakurser()
         mySqlCommand.Connection = mySqlConnection.ReturneraKoppling()
         mySqlCommand.CommandType = CommandType.Text
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT HÄMTA KURSER"
+        mySqlCommand.CommandText = "SELECT kursnamn FROM Kurs990730"
+        '"EGEN KOD: SQL-SATS FÖR ATT HÄMTA KURSER"
 
         mySqlConnection.open()
         myAdapter = New SqlDataAdapter(mySqlCommand)
@@ -249,7 +250,8 @@ Public Class frmElev
         hämtakurser()
 
         mySqlConnection.open()
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT HÄMTA ELEVS KURSER FÖR DEN ELEV SOM MARKERATS I LISTBOXEN. ELEVENS PERSONNUMMER FINNS I VARIABELN personnummer."
+        mySqlCommand.CommandText = "SELECT kursnamn FROM KursElev990730 WHERE pnr = '" & personnummer & "'"
+        '"EGEN KOD: SQL-SATS FÖR ATT HÄMTA ELEVS KURSER FÖR DEN ELEV SOM MARKERATS I LISTBOXEN. ELEVENS PERSONNUMMER FINNS I VARIABELN personnummer."
 
         myAdapter = New SqlDataAdapter(mySqlCommand)
 
@@ -262,7 +264,8 @@ Public Class frmElev
         Next
         ListBox2.DisplayMember = "kursNamn"
 
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT HÄMTA ELEVEN MED PERSONNUMMER SOM FINNS I VARIABLEN personnummer."
+        mySqlCommand.CommandText = "SELECT pnr, fornamn, efternamn, ort FROM Elev990730 WHERE pnr = '" & personnummer & "'"
+        '"EGEN KOD: SQL-SATS FÖR ATT HÄMTA ELEVEN MED PERSONNUMMER SOM FINNS I VARIABLEN personnummer."
         myAdapter = New SqlDataAdapter(mySqlCommand)
 
 
@@ -295,7 +298,8 @@ Public Class frmElev
         If Not uppgifternaÄrGodkända() Then Exit Sub
 
         mySqlConnection.Open()
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT HÄMTA ELEV MED PERSONNUMMER SOM FYLLTS I I TEXTBOXEN OCH SOM LAGTS IN I VARIABELN nyttPnr ENLIGT OVAN. VI SKA KOLLA ATT PERSONNUMRET INTE FINNS REDAN"
+        mySqlCommand.CommandText = "SELECT * FROM Elev990730 WHERE pnr = '" & nyttPnr & "'"
+        '"EGEN KOD: SQL-SATS FÖR ATT HÄMTA ELEV MED PERSONNUMMER SOM FYLLTS I I TEXTBOXEN OCH SOM LAGTS IN I VARIABELN nyttPnr ENLIGT OVAN. VI SKA KOLLA ATT PERSONNUMRET INTE FINNS REDAN"
 
         myAdapter = New SqlDataAdapter(mySqlCommand)
 
@@ -309,15 +313,19 @@ Public Class frmElev
 
         If Me.Owner.Text = "frmOppna" Then
 
-            mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT TA BORT ELEV MED PERSONUMMER SOM FINNS I VARIABELN gammaltPnr."
+            mySqlCommand.CommandText = "DELETE FROM Elev990730 WHERE pnr = '" & gammaltPnr & "'"
+            '"EGEN KOD: SQL-SATS FÖR ATT TA BORT ELEV MED PERSONUMMER SOM FINNS I VARIABELN gammaltPnr."
 
             mySqlCommand.ExecuteNonQuery()
-            mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT TA BORT DE ELEVENS ALLA KURSER."
+            mySqlCommand.CommandText = "DELETE FROM KursElev990730 WHERE pnr = '" & gammaltPnr & "'"
+            '"EGEN KOD: SQL-SATS FÖR ATT TA BORT DE ELEVENS ALLA KURSER."
 
             mySqlCommand.ExecuteNonQuery()
         End If
 
-        mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT LÄGGA ELEVEN (pnr, efternamn; förnamn OCH ort. PERSONNUMRET FINNS I VARIABELN nyttPnr OCH ÖVRIGA UPPGIFTER I TEXTBOXARNA."
+        mySqlCommand.CommandText = "INSERT INTO Elev990730 (pnr, fornamn, efternamn, ort) " &
+                               "VALUES ('" & nyttPnr & "', '" & TxtFor.Text & "', '" & txtEfter.Text & "', '" & txtOrt.Text & "')"
+        '"EGEN KOD: SQL-SATS FÖR ATT LÄGGA ELEVEN (pnr, efternamn; förnamn OCH ort. PERSONNUMRET FINNS I VARIABELN nyttPnr OCH ÖVRIGA UPPGIFTER I TEXTBOXARNA."
 
         mySqlCommand.ExecuteNonQuery()
 
@@ -329,7 +337,9 @@ Public Class frmElev
 
         Dim i
         For i = 0 To ListBox2.Items.Count - 1
-            mySqlCommand.CommandText = "EGEN KOD: SQL-SATS FÖR ATT LÄGGA I ELEVENS KURSER(ListBox2.Items.Item(i)"
+            mySqlCommand.CommandText = "INSERT INTO KursElev990730 (pnr, kursnamn) " &
+                                   "VALUES ('" & nyttPnr & "', '" & ListBox2.Items.Item(i) & "')"
+            '"EGEN KOD: SQL-SATS FÖR ATT LÄGGA I ELEVENS KURSER(ListBox2.Items.Item(i)"
 
             mySqlCommand.ExecuteNonQuery()
         Next

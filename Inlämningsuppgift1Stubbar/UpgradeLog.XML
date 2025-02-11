@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Inlämningsuppgift1">
+</Property><Property Name="Solution File" Value="G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Inlämningsuppgift1.sln">
+</Property><Property Name="User Options File" Value="G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Inlämningsuppgift1.suo">
+</Property><Property Name="Date" Value="den 15 december 2009">
+</Property><Property Name="Time" Value="20:58">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Inlämningsuppgift1.sln" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\Inlämningsuppgift1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Inlämningsuppgift1.suo" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\Inlämningsuppgift1.suo">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="Inlämningsuppgift1.vbproj" Description="Project file successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\Inlämningsuppgift1.vbproj">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="Inlämningsuppgift1.vbproj.user" Description="Project user file successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\Inlämningsuppgift1.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="AssemblyInfo.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="ClassConnection.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\ClassConnection.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="ElevClass.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\ElevClass.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="Form1.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="frmElev.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\frmElev.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="frmKurs.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\frmKurs.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="frmOppna.vb" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\frmOppna.vb">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="Form1.resx" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="frmElev.resx" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\frmElev.resx">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="frmKurs.resx" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\frmKurs.resx">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="frmOppna.resx" Description="File successfully backed up as G:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\Backup\frmOppna.resx">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="Inlämningsuppgift1.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Inlämningsuppgift1" Source="Inlämningsuppgift1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Inlämningsuppgift1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Inlämningsuppgift1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Inlämningsuppgift1" Source="Inlämningsuppgift1.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

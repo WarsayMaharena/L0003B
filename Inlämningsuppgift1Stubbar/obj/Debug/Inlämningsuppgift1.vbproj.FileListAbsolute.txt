@@ -1,0 +1,43 @@
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb
+C:\MinaFiler\Kurser\L0003BFromHT2012\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
+C:\MinaFiler\Kurser\L0003BFromHT2012\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
+C:\MinaFiler\Kurser\L0003BFromHT2012\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.exe
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.pdb
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.xml
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmMain.resources
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmElev.resources
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmKurs.resources
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmOppna.resources
+C:\MinaFiler\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.GenerateResource.Cache
+C:\Mina Filer\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
+C:\Mina Filer\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
+C:\Mina Filer\Kurser\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.exe
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.pdb
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.xml
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.AssemblyReference.cache
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmMain.resources
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmElev.resources
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmKurs.resources
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmOppna.resources
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.GenerateResource.cache
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.CoreCompileInputs.cache
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
+S:\L0003B\ExaminationInlämningsuppgifter\Inlämningsupg_1\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb
+H:\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.exe
+H:\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.pdb
+H:\Inlämningsuppgift1Stubbar\bin\Inlämningsuppgift1.xml
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.AssemblyReference.cache
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmMain.resources
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmElev.resources
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmKurs.resources
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.frmOppna.resources
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.GenerateResource.cache
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.vbproj.CoreCompileInputs.cache
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.exe
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.xml
+H:\Inlämningsuppgift1Stubbar\obj\Debug\Inlämningsuppgift1.pdb

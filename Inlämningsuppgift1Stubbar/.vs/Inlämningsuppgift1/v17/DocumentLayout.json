@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|s:\\l0003b\\examinationinl\u00E4mningsuppgifter\\inl\u00E4mningsupg_1\\inl\u00E4mningsuppgift1stubbar\\frmelev.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|solutionrelative:frmelev.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmelev.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|solutionrelative:frmelev.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmoppna.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|solutionrelative:frmoppna.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmkurs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AC2A727B-AB52-401E-A882-A6C33BFF76D5}|Inl\u00E4mningsuppgift1.vbproj|solutionrelative:frmkurs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmElev.vb",
+              "DocumentMoniker": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmElev.vb",
+              "RelativeDocumentMoniker": "frmElev.vb",
+              "ToolTip": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmElev.vb",
+              "RelativeToolTip": "frmElev.vb",
+              "ViewState": "AgIAABcBAAAAAAAAAAAwwCUBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-01-19T12:30:06.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmOppna.vb",
+              "DocumentMoniker": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmOppna.vb",
+              "RelativeDocumentMoniker": "frmOppna.vb",
+              "ToolTip": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmOppna.vb",
+              "RelativeToolTip": "frmOppna.vb",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwHAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-01-19T12:30:03.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmElev.vb [Design]",
+              "DocumentMoniker": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmElev.vb",
+              "RelativeDocumentMoniker": "frmElev.vb",
+              "ToolTip": "C:\\Mina Filer\\Kurser\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmElev.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-01-19T12:30:07.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmKurs.vb",
+              "DocumentMoniker": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmKurs.vb",
+              "RelativeDocumentMoniker": "frmKurs.vb",
+              "ToolTip": "S:\\L0003B\\ExaminationInl\u00E4mningsuppgifter\\Inl\u00E4mningsupg_1\\Inl\u00E4mningsuppgift1Stubbar\\frmKurs.vb",
+              "RelativeToolTip": "frmKurs.vb",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAHsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-01-19T12:30:07.136Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
